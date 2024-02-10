@@ -267,9 +267,14 @@ footer
 
 @media screen and (max-width: 600px) {
 
+    .title
+    {
+        font-size: 1.5rem;
+    }
+
     nav ul li a
     {
-        font-size: 10,5pt;
+        font-size: 11pt;
     }
     .slider
     {
@@ -294,6 +299,17 @@ footer
         margin-bottom: 2%;
     }
 
+    .popup 
+    {
+    margin: 70px auto;
+    padding: 20px;
+    background: var(--pot-black);
+    border-radius: 5px;
+    width: 80%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    }
+
     .link img
     {
         width: 90%;
@@ -308,13 +324,13 @@ footer
 
     .sosmed
     {
-        font-size: 10pt;
-        padding-left: 6rem;
+        font-size: 9pt;
+        padding-left: 5rem;
     }
     
     .sosmed img
     {
-        width: 17%;
+        width: 14.5%;
     }
 
 }
